@@ -1,18 +1,25 @@
-s = "У лукоморья 123 дуб зеленый 456"
+def test_ya(s,x):
+    if s.count(x) !=0:
+        return s.find(x)
+    else:
+        return "Not found"
 
-print (s.count ("я"))
-print (s.find ("я"))
-print (s.find ("у"))
 def f(s):
     if (s.isalpha()) == False:
-        print (s.upper())    
-f(s)
-a = len(s)
-if a > 4:
-    print (s.lower())
+        return s.upper()
 
+def t(s):
+    if len(s) > 4:
+        return s.lower()
 
-print (s.replace(s[0], "О"))
+s = "У лукоморья 123 дуб зеленый 456"
+x = 'я'
 
+print ("test_ya:", test_ya(s,x))
+print (f(s))
+print (t(s))
+
+a = s[1:]
+print('О' + a) 
 
  

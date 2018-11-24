@@ -6,7 +6,7 @@ b = int (input("Введите число"))
 def f(a,b):
          c=len (a)
          if c > b:
-             print (a.upper())
+             return (a.upper())
          else:
-             print (a)
-f(a,b)
+             return (a)
+print (f(a,b))
