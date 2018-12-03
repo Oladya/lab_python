@@ -10,6 +10,9 @@ def f(x):
 print (list(map(f,a)))
 
 
+print(list(map(lambda x: math.sqrt(x), a)))
+
+
 
 d=[]
 for i in a:

@@ -15,9 +15,10 @@ while number_of_guesses < g:
     elif a > int(b):
         print("Попробуйте число больше")
     elif a < int(b):
-        print("Поробуйте число меньше")
+        print("Попробуйте число меньше")
     else:
-        print ("Победа!") 
+        print ("Победа!")
+		break
 
 if number_of_guesses == g:
     print("Игра окончена", "Загаданное число", a)
