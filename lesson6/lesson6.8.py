@@ -7,7 +7,7 @@ L=s.split()
 r= []
 print(L)
 for i in L:
-    if i.startswith("М") == False and i.startswith("м") == False:
+    if i.startswith("М") == False and not i.startswith("м"):
         r.append(i)
 
 

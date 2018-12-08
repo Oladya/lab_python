@@ -5,3 +5,4 @@ while True:
     if text == "Stop":
         break
     sum +=int(text)
+print(sum)

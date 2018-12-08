@@ -4,14 +4,7 @@ L = [math.sqrt(c) for c in a]
 print (L)
 
 
-
-def f(x):
-    return math.sqrt(x)
-print (list(map(f,a)))
-
-
-print(list(map(lambda x: math.sqrt(x), a)))
-
+print (list(map(math.sqrt,a)))
 
 
 d=[]
