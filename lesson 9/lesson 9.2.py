@@ -8,7 +8,7 @@ def read_tasks_file(filename):
         with open (filename, 'w') as f_obj:
             pass
         return []
-filename= "taks.json"
+filename= "task.json"
 e = read_tasks_file(filename)
 print(e)
 while True:
